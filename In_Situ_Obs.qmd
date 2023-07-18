@@ -1,0 +1,284 @@
+---
+title: "In situ observations"
+description: Showing some neat features of R! 
+title-slide-attributes:
+  data-background-image: ./images/bat_rubber.jpg
+  data-background-size: contain
+  data-background-opacity: "0.5"
+author:
+  - name: Dr. Jesús N. Pinto-Ledezma 
+    url: https://jesusnpl.github.io
+    affiliation: Ecology, Evolution & Behavior, University of Minnesota 
+    affiliation-url: https://jesusnpl.github.io 
+format:
+  revealjs:
+    transition: slide
+    background-transition: fade 
+    highlight-style: github 
+    slide-number: c/t 
+editor: visual 
+date: today # other options: now, last-modified
+---
+
+------------------------------------------------------------------------
+
+## What do you see?
+
+::: image-col
+---
+fig-cap-location: top
+---
+
+![Drawing by Dee Hyde](./images/drawing.jpg){fig-align="center"}
+:::
+
+------------------------------------------------------------------------
+
+## What did you see?
+
+::: incremental
+-   How many mammals are there?
+
+-   What kind?
+
+-   Can you describe them?
+:::
+
+------------------------------------------------------------------------
+
+::: image-col
+---
+fig-cap-location: top
+---
+
+![Drawing by Dee Hyde](./images/drawing2.png){fig-align="center"}
+:::
+
+------------------------------------------------------------------------
+
+## What are In situ observations?
+
+::: incremental
+-   "*In situ* observations are those made at the location of the instrument. With this definition a large variety of techniques qualify as in situ measurements." *sensu* Ehhalt (1980)
+
+-   *In situ* observations provide the best and, in some cases, the only way to measure what we observe in nature...
+:::
+
+![](./images/Ehhalt.png){fig-align="center" width="15%"}
+
+------------------------------------------------------------------------
+
+![](./images/birds.png){fig-align="center" width="70%"}
+
+------------------------------------------------------------------------
+
+## Data management
+
+![](./images/freelunch.jpg){fig-align="center" width="30%"}
+
+------------------------------------------------------------------------
+
+## What is data management?
+
+::: {style="font-size:30px"}
+-   Data management encompasses everything about how the data are collected, processed, stored, and archived.
+
+-   Data management procedures and practices should be an integral part of any research project planning and should be in place prior to any data being collected.
+:::
+
+![](./images/process.png){fig-align="center" width="25%"}
+
+::: callout-note
+Efficient organization of the collected data (from the field or lab) and beyond...
+:::
+
+------------------------------------------------------------------------
+
+## Why is important?
+
+![](./images/process_comp.png){fig-align="center" width="30%"}
+
+::: {style="text-align: center"}
+Good Data Support the Process of Science
+:::
+
+------------------------------------------------------------------------
+
+::: {style="text-align: center"}
+"The quality of system output is dependent on the quality of system input." GIGO paradigm --George Fuechsel
+:::
+
+![](./images/gigo.png){fig-align="center" width="25%"}
+
+------------------------------------------------------------------------
+
+## How is it done?
+
+![](./images/hdone.png){fig-align="center" width="40%"}
+
+::: {style="text-align: center"}
+The best way to avoid Garbage Out is to prevent Garbage In!
+:::
+
+------------------------------------------------------------------------
+
+## Data collection
+
+::: incremental
+-   What data are collected?
+
+-   How will it be recorded?
+
+-   Safety: People, organisms, data
+:::
+
+![](./images/field.jpg){fig-align="rigth" width="30%"}
+
+------------------------------------------------------------------------
+
+## Data Sheets
+
+::: {style="text-align: center"}
+**WHAT** is the content of the data?
+:::
+
+![](./images/field.jpg){fig-align="rigth" width="30%"}
+
+------------------------------------------------------------------------
+
+## Data Sheets
+
+::: {style="text-align: center"}
+**Data Files: Best Practices of Data**
+:::
+
+::: incremental
+-   Columns (variables) & Rows (data)
+    -   Single row of descriptive headers (Avoid spaces or starting headers with numbers)
+-   Data disaggregation
+    -   One cell per variable (e.g., toe length & tail length in separate columns)
+-   Each cell has one type of data
+    -   Cell should only contain numbers or letters.
+    -   Not "3 eggs" -\> Header: EggNumber, Data: 3
+-   Plain text
+:::
+
+------------------------------------------------------------------------
+
+## Data Sheets
+
+::: {style="text-align: center"}
+**Data Files: Best Practices of Data**
+:::
+
+::: incremental
+-   Columns (variables) & Rows (data)\
+-   Use standardized formats for date/time/metric system
+    -   Date: YYYY-MM-DD (Year-Month-Day)
+    -   Time: hh:mm:ss (use 24-hour time)
+:::
+
+![](./images/americans.png){fig-align="center" width="90%"}
+
+------------------------------------------------------------------------
+
+## Data Sheets
+
+::: {style="text-align: center"}
+**Data Files: Best Practices of Data**
+:::
+
+::: incremental
+-   Columns (variables) & Rows (data)\
+-   Use standardized formats for date/time/metric system
+-   Use full taxonomic names
+    -   Genus and Genus species
+    -   (Genus species names are italicized in writing but not in data tables or in **.csv** format)
+:::
+
+------------------------------------------------------------------------
+
+## Data Sheets
+
+::: {style="text-align: center"}
+**Data Files: Best Practices of Data**
+:::
+
+::: incremental
+-   Columns (variables) & Rows (data)\
+-   Use standardized formats for date/time/metric system
+-   Use full taxonomic names
+-   Retain raw data, separate "clean" files for analysis
+:::
+
+------------------------------------------------------------------------
+
+## Data Sheets
+
+::: {style="text-align: center"}
+**Data Files: Best Practices of Data**
+:::
+
+::: incremental
+-   Columns (variables) & Rows (data)\
+-   Use standardized formats for date/time/metric system
+-   Use full taxonomic names
+-   Retain raw data, separate "clean" files for analysis
+-   Using easily transferable file formats & hardware
+    -   .csv format, not .xls
+    -   Internet/cloud storage & backup
+    -   Non-proprietary formats
+:::
+
+------------------------------------------------------------------------
+
+## Data Sheets
+
+::: {style="text-align: center"}
+**Data Files: Best Practices of Data**
+:::
+
+Using easily transferable file formats & hardware
+
+![](./images/studentthesis.png){fig-align="right" width="20%"}
+
+------------------------------------------------------------------------
+
+## Data Sheets
+
+::: {style="text-align: center"}
+**Data Files: Best Practices of Data**
+:::
+
+::: incremental
+-   Columns (variables) & Rows (data)\
+-   Use standardized formats for date/time/metric system
+-   Use full taxonomic names
+-   Retain raw data, separate "clean" files for analysis
+-   Using easily transferable file formats & hardware
+-   Descriptive file names (no spaces)
+    -   **"Your file name"** versus **"Your_file_name"**
+:::
+
+------------------------------------------------------------------------
+
+## Metadata
+
+::: {style="text-align: center"}
+**Metadata are data 'reporting'**
+:::
+
+::: incremental
+-   WHO created the data?
+-   WHAT are the contents of the data?
+-   WHEN were the data created?
+-   WHERE is it geographically?
+-   HOW were the data developed?
+-   WHY were the data developed?
+:::
+
+![](./images/peso.jpg){fig-align="right" width="50%"}
+
+::: {style="text-align: center"}
+Synthesis of Field Notebook and Data Sheet Organization
+:::
